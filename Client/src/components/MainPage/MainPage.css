@@ -1,0 +1,65 @@
+/* #mainPage{
+    color:black;
+}
+#navbarNavDropdown{
+    height: 50px;
+}
+.nav-item,.nav-link{
+    height: 50px;
+}
+table, tr, td , th{
+    border: 3px solid black;
+    padding: 10px;
+
+}
+table{
+    width: 100%;
+    border-bottom-width: var(--bs-border-width);
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 5px;
+  } */
+
+  #mainPage {
+    color: black;
+  }
+  
+  #navbarNavDropdown {
+    height: 50px;
+  }
+  
+  .nav-item,
+  .nav-link {
+    height: 50px;
+  }
+  
+  table {
+    width: 100%;
+    /* border-bottom-width: var(--bs-border-width); */
+    border-collapse: collapse; /* This property makes adjacent cells share borders */
+
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid black; /* This property sets a 1px black border on all sides of the cells */
+  padding: 10px; /* This property adds some padding inside the cells to make the content look nicer */
+
+  }
+  #hello{
+    color: black;
+    text-align: center;
+  }
+  #ul{
+    width:50%
+  }
+  #addMessageForm{
+    left: 80%;
+  }
